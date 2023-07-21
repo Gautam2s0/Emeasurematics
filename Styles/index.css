@@ -79,23 +79,47 @@ body{
 
 
 /* ****************** */
-
-.cont{
-    width: 11%;
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    justify-content: center;
+#parcelContainer{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    display: flex;
     align-items: center;
-    text-align: center;
-    border: 1px solid red;
+    justify-content: flex-start;
+    gap: 1px;
+
+   
 }
-.child2{
+.parceldiv{
+    width: 11%;
+    font-size: 1rem;
+    font-weight: 500;
     text-align: center;
-    background-color: firebrick;
-    color:#000;
+    /* border: 5px solid red; */
+
 }
+.child1{
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+#header{
+    display: flex;
+    margin-top: 1%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0;
+   
+}
+
+.headerp{
+    width: 12%;
+    height: 5vh;
+    
+}
+
 .Mumbai{
-    background: red;
+    background:rgb(224, 52, 81);
     
 
 }
@@ -104,42 +128,6 @@ body{
     
 }
 .Kolkata{
-    background: green;
+    background: rgb(58, 58, 240);
    
-}
-#parcelContainer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1%;
-    /* overflow:scroll ; */
-}
-#header{
-    display: flex;
-    margin-top: 5%;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 0;
-    overflow-x: scroll;
-
-}
-#header::-webkit-scrollbar {
-    width: 20px; /* Width of the scrollbar */
-    height: 8px;
-    
-  }
-
-  #header::-webkit-scrollbar-track {
-    background-color: #000 /* Background color of the track */;
-    border:1px solid teal;
-  }
-
-  #header::-webkit-scrollbar-thumb {
-    background-color: #0e8de8; /* Color of the scrollbar thumb */
-    border-radius: 1px; /* Rounded corners for the thumb */
-  }
-  
-.headerp{
-    width: 100%;
-    height: 11%;
 }

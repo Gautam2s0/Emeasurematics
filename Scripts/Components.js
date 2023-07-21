@@ -260,9 +260,10 @@ function ParcelCard(data) {
       let sequence = document.createElement("p");
   
       // setting Attribute className
-      div.setAttribute("class",el.group)
+      div.setAttribute("class","parceldiv")
       name.setAttribute("class", "child1");
       sequence.setAttribute("class", el.group);
+      div.classList.add("parceldiv");
   
       // setting content for the elements
       name.textContent = el.name;
@@ -291,7 +292,7 @@ function ParcelCard(data) {
   
       // Setting Attribute className using the 'group' property of the data element
       p.setAttribute("class", el.group);
-      p.innerText=el.name
+    //   p.innerText=el.name
      
       p.classList.add("headerp");
       // Appending the paragraph tag to the header
