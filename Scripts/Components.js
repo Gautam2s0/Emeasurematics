@@ -246,21 +246,60 @@ const Data = [
 // ************************************************************************
 //  functions 
 
-function ParcelContainer(name, sequence, group) {
-  return `
-      <div class="parcelCont">
-        <p class="child1">${name}</p>
-        <p class="child2">${sequence}</p>
-      </div>
-    `;
-}
+function ParcelCard(data) {
+    // getting parcel container by id
+    let parcelContainer = document.getElementById("parcelContainer");
+    // clearing the previous content of parcel container
+    parcelContainer.innerHTML = '';
+  
+    // iterating over data array through forEach
+    data.forEach((el) => {
+      // creating elements
+      let div = document.createElement("div");
+      let name = document.createElement("p");
+      let sequence = document.createElement("p");
+  
+      // setting Attribute className
+      div.setAttribute("class",el.group)
+      name.setAttribute("class", "child1");
+      sequence.setAttribute("class", el.group);
+  
+      // setting content for the elements
+      name.textContent = el.name;
+      sequence.textContent = el.sequence;
+  
+      // appending p tags to the div
+      div.append(name, sequence);
+  
+      // appending div to the parcel container
+      parcelContainer.append(div);
+    });
+  }
+  
 
-function HeaderContainer(group) {
-  return `
-        <div class="${group}">
-        </div>
-      `;
-}
+  function HeaderCard(data) {
+    // Getting header by id
+    let header = document.getElementById("header");
+  
+    // Clearing the previous content of the header
+    header.innerHTML = '';
+  
+    // Iterating over data array through forEach
+    data.forEach((el) => {
+      // Creating a paragraph tag for each data element
+      let p = document.createElement("p");
+  
+      // Setting Attribute className using the 'group' property of the data element
+      p.setAttribute("class", el.group);
+      p.innerText=el.name
+     
+      p.classList.add("headerp");
+      // Appending the paragraph tag to the header
+      header.append(p);
+    });
+   
+  }
+  
 
 //   export
-export { ParcelContainer, HeaderContainer,Data };
+export { ParcelCard, HeaderCard,Data };
