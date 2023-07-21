@@ -1,306 +1,306 @@
-
 const Data = [
 
-    {
+  {
+    id: 10,
 
-        id: 10,
+    name: 'PARCEL1',
 
-        name: "PARCEL1",
+    sequence: 1,
 
-        sequence: 1,
+    group: 'Mumbai'
 
-        group: "Mumbai"
+  },
 
-    },
+  {
+    id: 11,
 
-    {
+    name: 'PARCEL2',
 
-        id: 11,
+    sequence: 2,
 
-        name: "PARCEL2",
+    group: 'Mumbai'
 
-        sequence: 2,
+  },
 
-        group: "Mumbai"
+  {
+    id: 13,
 
-    },
+    name: 'PARCEL3',
 
-    {
+    sequence: 3,
 
-        id: 13,
+    group: 'Mumbai'
 
-        name: "PARCEL3",
+  },
 
-        sequence: 3,
+  {
+    id: 19,
 
-        group: "Mumbai"
+    name: 'PARCEL4',
 
-    },
+    sequence: 4,
 
-    {
+    group: 'Delhi'
 
-        id: 19,
+  },
 
-        name: "PARCEL4",
+  {
+    id: 18,
 
-        sequence: 4,
+    name: 'PARCEL5',
 
-        group: "Delhi"
+    sequence: 5,
 
-    },
+    group: 'Delhi'
 
-    {
+  },
 
-        id: 18,
+  {
+    id: 21,
 
-        name: "PARCEL5",
+    name: 'PARCEL6',
 
-        sequence: 5,
+    sequence: 6,
 
-        group: "Delhi"
+    group: 'Kolkata'
 
-    },
+  },
 
-    {
+  {
+    id: 12,
 
-        id: 21,
+    name: 'PARCEL7',
 
-        name: "PARCEL6",
+    sequence: 7,
 
-        sequence: 6,
+    group: 'Kolkata'
 
-        group: "Kolkata"
+  },
 
-    },
+  {
+    id: 22,
 
-    {
+    name: 'PARCEL8',
 
-        id: 12,
+    sequence: 8,
 
-        name: "PARCEL7",
+    group: 'Kolkata'
 
-        sequence: 7,
+  },
 
-        group: "Kolkata"
+  {
+    id: 23,
 
-    },
+    name: 'PARCEL9',
 
-    {
+    sequence: 9,
 
-        id: 22,
+    group: 'Kolkata'
 
-        name: "PARCEL8",
+  },
 
-        sequence: 8,
+  {
+    id: 24,
 
-        group: "Kolkata"
+    name: 'PARCEL10',
 
-    },
+    sequence: 10,
 
-    {
+    group: 'Mumbai'
 
-        id: 23,
+  },
 
-        name: "PARCEL9",
+  {
+    id: 25,
 
-        sequence: 9,
+    name: 'PARCEL11',
 
-        group: "Kolkata"
+    sequence: 11,
 
-    },
+    group: 'Mumbai'
 
-    {
+  },
 
-        id: 24,
+  {
+    id: 31,
 
-        name: "PARCEL10",
+    name: 'PARCEL12',
 
-        sequence: 10,
+    sequence: 12,
 
-        group: "Mumbai"
+    group: 'Mumbai'
 
-    },
+  },
 
-    {
+  {
+    id: 34,
 
-        id: 25,
+    name: 'PARCEL13',
 
-        name: "PARCEL11",
+    sequence: 13,
 
-        sequence: 11,
+    group: 'Mumbai'
 
-        group: "Mumbai"
+  },
 
-    },
+  {
+    id: 35,
 
-    {
+    name: 'PARCEL14',
 
-        id: 31,
+    sequence: 14,
 
-        name: "PARCEL12",
+    group: 'Delhi'
 
-        sequence: 12,
+  },
 
-        group: "Mumbai"
+  {
+    id: 41,
 
-    },
+    name: 'PARCEL15',
 
-    {
+    sequence: 15,
 
-        id: 34,
+    group: 'Delhi'
 
-        name: "PARCEL13",
+  },
 
-        sequence: 13,
+  {
+    id: 42,
 
-        group: "Mumbai"
+    name: 'PARCEL16',
 
-    },
+    sequence: 16,
 
-    {
+    group: 'Delhi'
 
-        id: 35,
+  },
 
-        name: "PARCEL14",
+  {
+    id: 43,
 
-        sequence: 14,
+    name: 'PARCEL17',
 
-        group: "Delhi"
+    sequence: 17,
 
-    },
+    group: 'Delhi'
 
-    {
+  },
 
-        id: 41,
+  {
+    id: 44,
 
-        name: "PARCEL15",
+    name: 'PARCEL18',
 
-        sequence: 15,
+    sequence: 18,
 
-        group: "Delhi"
+    group: 'Kolkata'
 
-    },
+  },
 
-    {
+  {
+    id: 53,
 
-        id: 42,
+    name: 'PARCEL19',
 
-        name: "PARCEL16",
+    sequence: 19,
 
-        sequence: 16,
+    group: 'Kolkata'
 
-        group: "Delhi"
+  },
 
-    },
+  {
+    id: 57,
 
-    {
+    name: 'PARCEL20',
 
-        id: 43,
+    sequence: 20,
 
-        name: "PARCEL17",
+    group: 'Kolkata'
 
-        sequence: 17,
+  }
 
-        group: "Delhi"
-
-    },
-
-    {
-
-        id: 44,
-
-        name: "PARCEL18",
-
-        sequence: 18,
-
-        group: "Kolkata"
-
-    },
-
-    {
-
-        id: 53,
-
-        name: "PARCEL19",
-
-        sequence: 19,
-
-        group: "Kolkata"
-
-    },
-
-    {
-
-        id: 57,
-
-        name: "PARCEL20",
-
-        sequence: 20,
-
-        group: "Kolkata"
-
-    }
-
-];
+]
 
 // ************************************************************************
 //  functions 
 
-function ParcelCard(data) {
-    // getting parcel container by id
-    let parcelContainer = document.getElementById("parcelContainer");
-    // clearing the previous content of parcel container
-    parcelContainer.innerHTML = '';
-  
-    // iterating over data array through forEach
-    data.forEach((el) => {
-      // creating elements
-      let div = document.createElement("div");
-      let name = document.createElement("p");
-      let sequence = document.createElement("p");
-  
-      // setting Attribute className
-      div.setAttribute("class","parceldiv")
-      name.setAttribute("class", "child1");
-      sequence.setAttribute("class", el.group);
-      div.classList.add("parceldiv");
-  
-      // setting content for the elements
-      name.textContent = el.name;
-      sequence.textContent = el.sequence;
-  
-      // appending p tags to the div
-      div.append(name, sequence);
-  
-      // appending div to the parcel container
-      parcelContainer.append(div);
-    });
-  }
-  
+function ParcelCard (data) {
+  // getting parcel container by id
+  let parcelContainer = document.getElementById('parcelContainer')
+  // clearing the previous content of parcel container
+  parcelContainer.innerHTML = ''
 
-  function HeaderCard(data) {
-    // Getting header by id
-    let header = document.getElementById("header");
-  
-    // Clearing the previous content of the header
-    header.innerHTML = '';
-  
-    // Iterating over data array through forEach
-    data.forEach((el) => {
-      // Creating a paragraph tag for each data element
-      let p = document.createElement("p");
-  
-      // Setting Attribute className using the 'group' property of the data element
-      p.setAttribute("class", el.group);
-    //   p.innerText=el.name
+  // iterating over data array through forEach
+  data.forEach((el) => {
+    // creating elements
+    let div = document.createElement('div')
+    let name = document.createElement('p')
+    let sequence = document.createElement('p')
+
+    // setting Attribute className
+    div.setAttribute('class', 'parceldiv')
+    name.setAttribute('class', 'child1')
+    sequence.setAttribute('class', el.group)
+
+
+    // setting content for the elements
+    name.textContent = el.name
+    sequence.textContent = el.sequence
+
+
+
+
+    // appending p tags to the div
+    div.append(name, sequence)
+    
+//  EventListener
+    div.addEventListener('click', () => {
+      let parcel = document.getElementById('parcelToShow')
+      parcel.innerHTML = ''
      
-      p.classList.add("headerp");
-      // Appending the paragraph tag to the header
-      header.append(p);
-    });
-   
-  }
-  
+      parcel.innerText = el.name
+      parcel.value = el.sequence
+      div.style.border = '2px dashed blue'
+    })
+    div.style.cursor = 'pointer'
+    div.style.border = 'none'
+
+
+
+    // appending div to the parcel container
+    parcelContainer.append(div)
+  })
+}
+
+
+function HeaderCard (data) {
+  // Getting header by id
+  let header = document.getElementById('header')
+
+  // Clearing the previous content of the header
+  header.innerHTML = ''
+
+  // Iterating over data array through forEach
+  data.forEach((el) => {
+    // Creating a paragraph tag for each data element
+    let p = document.createElement('p')
+
+    // Setting Attribute className using the 'group' property of the data element
+    p.setAttribute('class', el.group)
+    //   p.innerText=el.name
+
+    p.classList.add('headerp')
+    // Appending the paragraph tag to the header
+    header.append(p)
+  })
+}
+
+//   function handleClick(el){
+
+// element.style.border="1px solid red"
+
+
 
 //   export
-export { ParcelCard, HeaderCard,Data };
+export { ParcelCard, HeaderCard, Data }
