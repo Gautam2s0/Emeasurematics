@@ -4,8 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./Styles/index.css">
 </head>
 <body>
+    <div id="header"></div>
+    <div id="parcelContainer" >
+        <div class="cont">
+            <p class="child1">Parcel 1</p>
+            <p class="child2">1</p>
+        </div>
+    </div>
+     <div id="Selectedparcel">
+        <span>Selected Parcel :</span>
+        <span id="parcelToShow">Parcel 3</span>
+     </div>
+     <div id="inputConatiner">
+       <div>
+        <span>Enter Name :</span>
+        <input type="text" id="parcelName" placeholder="Enter the parcel name" >
+       </div>
+       <div>
+        <span>Select Location Group :</span>
+        <select name="" id="location" >
+            <option value="" >Select the location</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Delhi">Delhi</option>
+        </select>
+       </div>
+     </div>
+     <div id="buttonContainer">
+        <button>Add After</button>
+        <button>Add Before</button>
+        <button>Replace</button>
+        <button>Delete</button>
+        <button>Refresh</button>
+        <button>Show Final</button>
+    </div>
     
 </body>
 </html>
+<script type="module"  src="./Scripts/index.js"></script>

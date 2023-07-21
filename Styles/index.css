@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: #fff;
+    /* width: 99.5%;
+    margin: auto; */
+    font-size: 1.2rem;
+    font-family:Georgia, 'Times New Roman', Times, ;
+
+}
+body{
+    width: 97%;
+    margin: auto;
+}
+/* Selectedparcel name which have to show */
+#Selectedparcel{
+    display: flex;
+    gap: 3%;
+    font-weight: 600;
+    color: #fff;
+
+}
+#parcelToShow{
+    color: aqua;
+}
+
+/* input Tags */
+#inputConatiner{
+    margin-top: 3%;    
+}
+#inputConatiner div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2%;
+    
+    
+}
+#inputConatiner div>span{
+    width: 20%;
+    /* border: 1px solid yellow; */
+    
+    
+}
+#location,#parcelName{
+    width: 50%;
+    height: 2.5rem;
+    border: 1px solid #333;
+    font-size: 1.1rem;
+    padding-left: .5%;
+    font-style: italic;
+}
+#parcelName::placeholder{
+    color: #fff;
+    font-style: italic;
+}
+
+/* buttons */
+#buttonContainer{
+    /* border: 1px solid red; */
+    display: flex;
+    margin-top: 2%;
+    padding-bottom: 5%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1%;
+   
+}
+#buttonContainer button{
+    width: 100%;
+   background-color: rgb(150, 237, 186);
+   color: #333;
+   font-weight: 600;
+   font-size: large;
+   padding: 1% 0;
+   cursor: pointer;
+}
+
+
+/* ****************** */
+
+.cont{
+    width: 11%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid red;
+}
+.child2{
+    text-align: center;
+    background-color: firebrick;
+    color:#000;
+}
